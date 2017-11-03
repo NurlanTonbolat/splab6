@@ -4,7 +4,6 @@ This lab is the homework of [Chapter 27, Interlude : Thread API](http://pages.cs
 The code can be found [here](http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)  
 Format your answers neatly and submit.
 
-
 ### Q1
 ```
 $ valgrind --tool=helgrind man-race
