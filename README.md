@@ -20,6 +20,11 @@ _Approximately._
 _It says that `balance` variable is involved in race condition and it says a lot of strange info that I have difficulties to parse._
 
 ### Q2
+1. __What happens when you remove one of the offending lines of code?__  
+`helgrind` does not complain to anything.
+2. __Now add a lock around one of the updates to the shared variable, and then around both. What does helgrind report in each of these cases?__
+
+
 
 ### Q3
 
