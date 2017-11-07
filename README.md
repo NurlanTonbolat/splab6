@@ -11,10 +11,10 @@ $ valgrind --tool=helgrind man-race
 
 ```
 ---
-__1. What information does helgrind give to you?__  
+1. __What information does helgrind give to you?__  
 _`helgrind` says `Possible data race during read of size 4 at 0x602094 by thread #1 ... at 0x400CC3: main (main-race.c:15)`
 and `This conflicts with a previous write of size 4 by thread #2 ... at 0x400C7D: worker (main-race.c:8)`_
-__2. Does it point to the right lines of code?__  
+2. __Does it point to the right lines of code?__  
 _Approximately._
 
 ### Q2
