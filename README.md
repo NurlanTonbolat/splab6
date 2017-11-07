@@ -26,9 +26,8 @@ _It says that `balance` variable is involved in race condition and it says a lot
 _With 1 lock `valgrind` complains, whereas with 2 lock `valgrind` does not complain._
 
 ### Q3
-Now let’s look at main-deadlock.c.  Examine the code.  This code has a problem known as deadlock (which we discuss in much
-more depth in a forthcoming chapter). __Can you see what problem it might have?__  
-_it is difficult to say from valgrind output what was the problem, but we believe it was deadlock._
+Now let’s look at `main-deadlock.c`.  Examine the code.  This code has a problem known as __deadlock__ (which we discuss in much more depth in a forthcoming chapter). __Can you see what problem it might have?__
+__?__
 
 ### ...
 
