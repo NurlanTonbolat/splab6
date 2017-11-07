@@ -16,6 +16,8 @@ _`helgrind` says `Possible data race during read of size 4 at 0x602094 by thread
 and `This conflicts with a previous write of size 4 by thread #2 ... at 0x400C7D: worker (main-race.c:8)`_
 2. __Does it point to the right lines of code?__  
 _Approximately._
+3. __What other information does it give to you?__  
+_It says that `balance` variable is involved in race condition and it says a lot of strange info that I have difficulties to parse._
 
 ### Q2
 
